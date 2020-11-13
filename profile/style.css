@@ -1,0 +1,84 @@
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+/* --- Components design --- */
+@import url("components/avatar.css");
+
+/* --- Fonts --- */
+body {
+    font-family: "Open Sans", "sans-serif";
+    background-color: #464F62;
+    font-size: 16px;
+    color: #607990
+    /*padding-bottom: 200px;*/
+  }
+  
+  h1, h2 {
+    font-family: "Roboto", "sans-serif";
+    color: #464F62;
+  }
+  
+  p {
+    margin-bottom: 32px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 150px;
+    border: 100px grey;
+  }
+  
+  #linkedin {
+    background-color: #242a36;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #linkedin:hover {
+    text-decoration: none;
+    border: 2px solid #232830;
+    background-color: #232830;
+    color: white;
+  }
+  
+    
+  .bio, .footer {
+    text-align: center;
+    background: #ebe8e8;
+    padding: 32px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 480px;
+    margin: 10px auto;
+  }
+
+  .footer {
+    padding-top: 16px;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fab {
+    color: #242a36
+  }
+  
+  .fab:hover {
+    opacity: .5;
+  }
+
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .bio, .footer {
+      width: 300px;
+    }
+  }
